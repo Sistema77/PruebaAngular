@@ -4,21 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AsignaturaComponent } from './asignatura/asignatura.component';
-import { CabeceraComponent } from './cabecera/cabecera.component';
 import { PreguntaRespuestaComponent } from './pregunta-respuesta/pregunta-respuesta.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CabeceraComponent } from './cabecera/cabecera.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AsignaturaComponent,
-    CabeceraComponent,
-    PreguntaRespuestaComponent
+    PreguntaRespuestaComponent,
+    CabeceraComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
